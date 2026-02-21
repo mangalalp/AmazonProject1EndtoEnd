@@ -1,29 +1,15 @@
-package mdule1;
 
+package assignments;
 
-public class Class_A {
-	
-    public void publicMethodA() {
-        System.out.println("This is a public method from ClassA.");
-    }
+import mdule1.Class_AB;
 
-    
-    protected void protectedMethodA() {
-        System.out.println("This is a protected method from ClassA.");
-    }
+public class Class_A extends Class_AB{
 
-    
-    void defaultMethodA() {
-        System.out.println("This is a default method from ClassA.");
-    }
-
-   
-    private void privateMethodA() {
-        System.out.println("This is a private method from ClassA.");
-    }
-
-    
-       
+	public static void main(String[] args) {
+		
+		Class_AB.method1();
+		Class_AB.method2();
+		
+	}
 
 }
-
